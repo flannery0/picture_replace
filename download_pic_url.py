@@ -1,8 +1,6 @@
 #!/bin/python
 #coding=utf-8
  
-import xlrd
-import xlsxwriter
 import urllib.request  
 from xml.dom import minidom 
 import re
@@ -20,7 +18,6 @@ from lxml import etree
 import xml.etree.ElementTree as ET
 import xml
 import urllib.request, urllib.error, urllib.request, urllib.parse
-import pprint as pp
 from bs4 import BeautifulSoup
 import requests
 from requests.adapters import HTTPAdapter
